@@ -28,15 +28,6 @@ nav input {
 
 @media print {
   .section { display: block !important; }
-  .section:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 1px; /* suit your need */
-    background: black; /* suit your need */
-    top: 100%;
-    left: 0;
-  }
   nav { display: none; }
   footer{ display: none; }
   body { font-size: 1em !important; }
