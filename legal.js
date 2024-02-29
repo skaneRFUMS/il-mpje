@@ -14,7 +14,7 @@ function addToc() {
   let html = '<div class="toc"><a href="#" id="prevToc" onclick="prevToc(); return false;">&laquo;</a>';
   html += `<input id="tocNum" type="number" min="1" max="${maxToc}" onchange="gotoToc($(this).val()); return false;" value="${currentToc}" /> of ${maxToc}`;
   html += '<a href="#" id="nextToc" onclick="nextToc(); return false;">&raquo;</a></div>';
-  $('header').append(html);
+  $('nav').append(html);
 }
 
 function prevToc() {
