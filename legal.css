@@ -1,0 +1,33 @@
+header {
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: center;
+}
+header a {
+  text-decoration: none !important;
+  font-weight: bold !important;
+  font-size: 1.25em !important;
+  margin: 0 0.5em !important;
+}
+header input {
+  padding: 0.25em;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  width: 2.5em;
+}
+
+@media print {
+  .section { display: block !important; }
+  .section:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px; /* suit your need */
+    background: black; /* suit your need */
+    top: 100%;
+    left: 0;
+  }
+  header{ display: none; }
+  footer{ display: none; }
+}
