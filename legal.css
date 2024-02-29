@@ -30,4 +30,5 @@ header input {
   }
   header{ display: none; }
   footer{ display: none; }
+  body { font-size: 1em !important; }
 }
